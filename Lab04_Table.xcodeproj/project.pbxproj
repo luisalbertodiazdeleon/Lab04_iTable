@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		487D47151D14E0F100B22CA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 487D47141D14E0F100B22CA2 /* main.m */; };
 		487D47181D14E0F100B22CA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 487D47171D14E0F100B22CA2 /* AppDelegate.m */; };
-		487D471B1D14E0F100B22CA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 487D471A1D14E0F100B22CA2 /* ViewController.m */; };
+		487D471B1D14E0F100B22CA2 /* Start.m in Sources */ = {isa = PBXBuildFile; fileRef = 487D471A1D14E0F100B22CA2 /* Start.m */; };
 		487D471E1D14E0F100B22CA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 487D471C1D14E0F100B22CA2 /* Main.storyboard */; };
 		487D47211D14E0F100B22CA2 /* Lab04_Table.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 487D471F1D14E0F100B22CA2 /* Lab04_Table.xcdatamodeld */; };
 		487D47231D14E0F100B22CA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 487D47221D14E0F100B22CA2 /* Assets.xcassets */; };
@@ -21,8 +21,8 @@
 		487D47141D14E0F100B22CA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		487D47161D14E0F100B22CA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		487D47171D14E0F100B22CA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		487D47191D14E0F100B22CA2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		487D471A1D14E0F100B22CA2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		487D47191D14E0F100B22CA2 /* Start.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Start.h; sourceTree = "<group>"; };
+		487D471A1D14E0F100B22CA2 /* Start.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Start.m; sourceTree = "<group>"; };
 		487D471D1D14E0F100B22CA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		487D47201D14E0F100B22CA2 /* Lab04_Table.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lab04_Table.xcdatamodel; sourceTree = "<group>"; };
 		487D47221D14E0F100B22CA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,10 +60,8 @@
 		487D47121D14E0F100B22CA2 /* Lab04_Table */ = {
 			isa = PBXGroup;
 			children = (
-				487D47161D14E0F100B22CA2 /* AppDelegate.h */,
-				487D47171D14E0F100B22CA2 /* AppDelegate.m */,
-				487D47191D14E0F100B22CA2 /* ViewController.h */,
-				487D471A1D14E0F100B22CA2 /* ViewController.m */,
+				487D472E1D14E20200B22CA2 /* Controller */,
+				487D472D1D14E1F800B22CA2 /* Main */,
 				487D471C1D14E0F100B22CA2 /* Main.storyboard */,
 				487D47221D14E0F100B22CA2 /* Assets.xcassets */,
 				487D47241D14E0F100B22CA2 /* LaunchScreen.storyboard */,
@@ -80,6 +78,24 @@
 				487D47141D14E0F100B22CA2 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		487D472D1D14E1F800B22CA2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				487D47161D14E0F100B22CA2 /* AppDelegate.h */,
+				487D47171D14E0F100B22CA2 /* AppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		487D472E1D14E20200B22CA2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				487D47191D14E0F100B22CA2 /* Start.h */,
+				487D471A1D14E0F100B22CA2 /* Start.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,7 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				487D471B1D14E0F100B22CA2 /* ViewController.m in Sources */,
+				487D471B1D14E0F100B22CA2 /* Start.m in Sources */,
 				487D47181D14E0F100B22CA2 /* AppDelegate.m in Sources */,
 				487D47211D14E0F100B22CA2 /* Lab04_Table.xcdatamodeld in Sources */,
 				487D47151D14E0F100B22CA2 /* main.m in Sources */,

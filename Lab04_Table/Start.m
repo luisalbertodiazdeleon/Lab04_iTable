@@ -6,13 +6,13 @@
 //  Copyright © 2016 Luis Diaz. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "Start.h"
 
-@interface ViewController ()
+@interface Start ()
 
 @end
 
-@implementation ViewController
+@implementation Start
 
 - (void)viewDidLoad {
     [super viewDidLoad];
