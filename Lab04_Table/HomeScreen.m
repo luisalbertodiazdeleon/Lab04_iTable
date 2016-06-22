@@ -67,7 +67,7 @@
 }
 //-------------------------------------------------------------------------------
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
+   self.LosSimpson.text =self.SimpsonNames[indexPath.row];
 }
 
 

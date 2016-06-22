@@ -11,5 +11,6 @@
 
 @interface HomeScreen : UIViewController
 @property (weak, nonatomic) IBOutlet UITableView *tblSimpson;
+@property (weak, nonatomic) IBOutlet UILabel *LosSimpson;
 
 @end
