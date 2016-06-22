@@ -10,6 +10,7 @@
 
 extern NSString *stDummy;
 extern NSMutableArray   *maIntroTitles;
+extern NSMutableArray   *maIntroImgs;
 
 @interface Declarations : NSObject
 

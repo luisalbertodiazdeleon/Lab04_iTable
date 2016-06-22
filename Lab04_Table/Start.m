@@ -29,6 +29,7 @@
 //-------------------------------------------------------------------------------
 - (void)initController {
     maIntroTitles   = [[NSMutableArray alloc] initWithObjects: @"Estos son", @"Los personajes de", @"Los Simpson", nil];
+    maIntroImgs = [[NSMutableArray alloc] initWithObjects: @"lisa_test.gif", @"maggie_test.gif", @"bart_test.png", nil];
     [self createPageViews];
 }
 /**********************************************************************************************/
@@ -65,7 +66,8 @@
     }
     // Create a new view controller and pass suitable data.
     Intro *pageIntro        = [self.storyboard instantiateViewControllerWithIdentifier:@"Intro"];
-    pageIntro.lbIntro      = maIntroTitles[index];
+    //pageIntro.lbIntro      = maIntroTitles[index];
+    //pageIntro.ImgIntro.image      = [UIImage imageNamed: maIntroImgs[index]];
     pageIntro.iPageIndex    = index;
     
     return pageIntro;

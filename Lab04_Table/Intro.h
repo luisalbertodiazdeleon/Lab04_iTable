@@ -12,5 +12,6 @@
 @interface Intro : UIViewController
 @property NSUInteger iPageIndex;
 @property (strong, nonatomic) IBOutlet UILabel *lbIntro;
+@property (weak, nonatomic) IBOutlet UIImageView *ImgIntro;
 
 @end

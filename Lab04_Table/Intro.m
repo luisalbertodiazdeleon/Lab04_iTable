@@ -30,6 +30,7 @@
 //-------------------------------------------------------------------------------
 -(void)viewWillAppear:(BOOL)animated {
     self.lbIntro.text  = maIntroTitles[self.iPageIndex];
+    self.ImgIntro.image  = [UIImage imageNamed:maIntroImgs[self.iPageIndex ]];
 }
 
 /*
