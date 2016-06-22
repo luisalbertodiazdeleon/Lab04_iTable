@@ -31,6 +31,11 @@
 -(void)viewWillAppear:(BOOL)animated {
     self.lbIntro.text  = maIntroTitles[self.iPageIndex];
     self.ImgIntro.image  = [UIImage imageNamed:maIntroImgs[self.iPageIndex ]];
+    if (self.iPageIndex == 2)
+    {
+        self.btnIntro.hidden = FALSE;
+    }
+        
 }
 
 /*
@@ -43,4 +48,13 @@
 }
 */
 
+/*************************/
+#pragma mark - Action methods
+/*************************/
+
+- (IBAction)btnIntro_Pressed:(id)sender {
+    HomeScreen *vc = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"HomeScreen"];
+    
+    [self presentViewController:vc animated:YES completion:nil];
+}
 @end
