@@ -31,9 +31,9 @@
 
 //-------------------------------------------------------------------------------
 - (void)initController {
-    self.SimpsonNames   = [[NSMutableArray alloc] initWithObjects: @"Lisa", @"Maggie", @"Bart", nil];
+    self.SimpsonNames   = [[NSMutableArray alloc] initWithObjects: @"Barney", @"Bart", @"Mr. Burns", @"Crusty", @"Gorgory", @"Homer", @"Lisa", @"Maggie", @"Marge", @"Martin", @"Milhouse", @"Moe", @"Otto",@"Santa's little Helper", @"Skinner", @"Smithers", nil];
     
-    self.SimpsonImgs   = [[NSMutableArray alloc] initWithObjects: @"lisa_test.gif", @"maggie_test.gif", @"bart_test.png", nil];
+    self.SimpsonImgs   = [[NSMutableArray alloc] initWithObjects: @"barney.jpg", @"bart.jpg", @"Burns.jpg.png", @"crusty.jpg", @"gorgory.jpg", @"Homer.jpg", @"lisa.jpg", @"maggie.png", @"marge.jpg", @"martin.jpg", @"Milhouse.jpg", @"moe.jpg", @"otto.jpg",@"santa.jpg", @"skinner.jpg", @"smithers.jpg", nil];
 }
 
 /**********************************************************************************************/
